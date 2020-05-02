@@ -78,6 +78,9 @@
     <Compile Include="Assets\Curso C#\pausa.cs" />
     <Compile Include="Assets\Curso C#\PLAYER.cs" />
     <Compile Include="Assets\Curso C#\PlayerManager.cs" />
+    <Compile Include="Assets\Curso C#\prototipos\IdentificarAngulo.cs" />
+    <Compile Include="Assets\Curso C#\prototipos\Manager.cs" />
+    <Compile Include="Assets\Curso C#\prototipos\ShowPos.cs" />
     <Compile Include="Assets\Curso C#\puntuacion.cs" />
     <Compile Include="Assets\Curso C#\shooter\RaycastShoot.cs" />
     <Compile Include="Assets\Curso C#\shooter\RayViewer.cs" />
@@ -86,8 +89,15 @@
     <Compile Include="Assets\Curso C#\texto\showPos.cs" />
     <Compile Include="Assets\Curso C#\ThrdPerson.cs" />
     <Compile Include="Assets\Curso C#\transportación de objeto.cs" />
+    <Compile Include="Assets\PhatRobit\2.5D Sprite Rotation\Scripts\CameraController.cs" />
+    <Compile Include="Assets\PhatRobit\2.5D Sprite Rotation\Scripts\CameraDirection.cs" />
+    <Compile Include="Assets\PhatRobit\2.5D Sprite Rotation\Scripts\Enums.cs" />
+    <Compile Include="Assets\PhatRobit\2.5D Sprite Rotation\Scripts\FpsCameraDirection.cs" />
+    <Compile Include="Assets\PhatRobit\2.5D Sprite Rotation\Scripts\RobitTools.cs" />
+    <Compile Include="Assets\PhatRobit\2.5D Sprite Rotation\Scripts\SpriteBillboard.cs" />
     <Compile Include="Assets\Scripts\SimpleCameraController.cs" />
     <Compile Include="Assets\Tutorial_Info\Scripts\Readme.cs" />
+    <None Include="Assets\PhatRobit\2.5D Sprite Rotation\Documentation\ReadMe.txt" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>C:/Users/Celeste/Desktop/Celeste/Juegos/Proyecto de prueba/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
