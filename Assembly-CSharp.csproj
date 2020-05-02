@@ -77,7 +77,9 @@
     <Compile Include="Assets\Curso C#\movimientoCamara.cs" />
     <Compile Include="Assets\Curso C#\pausa.cs" />
     <Compile Include="Assets\Curso C#\PLAYER.cs" />
+    <Compile Include="Assets\Curso C#\PlayerController.cs" />
     <Compile Include="Assets\Curso C#\PlayerManager.cs" />
+    <Compile Include="Assets\Curso C#\prototipos\Angle.cs" />
     <Compile Include="Assets\Curso C#\prototipos\IdentificarAngulo.cs" />
     <Compile Include="Assets\Curso C#\prototipos\Manager.cs" />
     <Compile Include="Assets\Curso C#\prototipos\ShowPos.cs" />

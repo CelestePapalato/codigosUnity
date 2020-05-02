@@ -26,7 +26,7 @@ public class IdentificarAngulo : MonoBehaviour
         V1 -= aux;
         V2 -= aux;
         angle = calculateCos(V1, V2);
-        Loging(angle, V1, V2, aux);
+        Loging(angle, V1, V2);
     }
 
     private float calculateCos(Vector3 V1, Vector3 V2){
@@ -43,12 +43,12 @@ public class IdentificarAngulo : MonoBehaviour
         return Angle;
     }
 
-    private void Loging(float angle, Vector3 Camera, Vector3 Direction, Vector3 Player){
-        if(Camera.x > 0) angle *= (-1);
+    private void Loging(float angle, Vector3 Camera, Vector3 Player){
+        if(Camera.x < 0 || Player.x < 0) angle *= (-1);
         Debug.Log(string.Format("angle = {0}", angle));
         if(angle >= (-45) && angle <= 45) Debug.Log("Front");
-        if(angle > 45 && angle <= 135) Debug.Log("Left");
-        if(angle < (-45) && angle >= (-135)) Debug.Log("Right");
+        if(angle > 45 && angle <= 135) Debug.Log("Right");
+        if(angle < (-45) && angle >= (-135)) Debug.Log("Left");
         if((angle > 135 && angle <= 180) || (angle < (-135) && angle >= -180))
             Debug.Log("Back");
     }
